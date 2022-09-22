@@ -61,6 +61,7 @@ public class Game{
                 alivePlayerNum++;
             }
         }
+
         return alivePlayerNum > 1; // min 2 players
     }
 
